@@ -12,6 +12,7 @@ package ca.sheridancolleage;
 public class Student {
     private String name;
     private String studentID;
+    private String program;
     
     /**
      * 
@@ -63,6 +64,20 @@ public class Student {
     public boolean didStudy()
     {
         return true;
+    }
+
+    /**
+     * @return the program
+     */
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     * @param program the program to set
+     */
+    public void setProgram(String program) {
+        this.program = program;
     }
             
 }
