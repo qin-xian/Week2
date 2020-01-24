@@ -10,7 +10,8 @@ package ca.sheridancolleage;
  * @author Enzoq, 2020
  */
 public class Student {
-    // test 
+    // test for pull
+    // test for fetch
     private String name;
     private String studentID;
     private String program;
